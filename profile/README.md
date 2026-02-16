@@ -8,7 +8,7 @@ O traveler, you who have arrived at these gates — know that the path behind yo
 
 An abomination. Convert Kubernetes manifests to `compose.yml` + `Caddyfile`. Not Kubernetes-in-Docker — no cluster, no kubelet, no shim. Plain `docker compose up`, plain Caddy, plain suffering.
 
-Three components: **h2c-core** (*the mad scribe*) converts the manifests, **operators** (*the damned*) extend it for CRDs, and **h2c-manager** (*the dark priest*) downloads and orchestrates everything.
+Three components: **h2c-core** (*the mad scribe*) converts the manifests, **extensions** (*the damned*) extend it beyond built-in kinds — today CRD operators, tomorrow whatever Yog Sa'rath demands — and **h2c-manager** (*the dark priest*) downloads and orchestrates everything.
 
 > *"Abandon all hope, yee who enter here"* — Semple (allegedly)
 
