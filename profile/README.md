@@ -1,10 +1,18 @@
 # helmfile2compose
 
-> *"Abandon all hope, yee who enter here"* — Semple
+O traveler, you who have arrived at these gates — know that the path behind you remains open. You may still turn back. None shall judge the wise who flee.
 
-Convert Kubernetes manifests to `compose.yml` + `Caddyfile`. Not Kubernetes-in-Docker — no cluster, no kubelet, no shim. A devolution of the power of Kubernetes into the simplicity of compose. Plain `docker compose up`. Plain Caddy. Plain suffering.
+**[Documentation](https://helmfile2compose.github.io/)** — for those who choose to proceed.
 
-## Repositories
+### The concept
+
+An abomination. Convert Kubernetes manifests to `compose.yml` + `Caddyfile`. Not Kubernetes-in-Docker — no cluster, no kubelet, no shim. Plain `docker compose up`, plain Caddy, plain suffering.
+
+Three components: **h2c-core** (*the mad scribe*) converts the manifests, **operators** (*the damned*) extend it for CRDs, and **h2c-manager** (*the dark priest*) downloads and orchestrates everything.
+
+> *"Abandon all hope, yee who enter here"* — Semple (allegedly)
+
+### Repositories
 
 | Repo | Purpose |
 |------|---------|
@@ -13,9 +21,3 @@ Convert Kubernetes manifests to `compose.yml` + `Caddyfile`. Not Kubernetes-in-D
 | [h2c-operator-keycloak](https://github.com/helmfile2compose/h2c-operator-keycloak) | Keycloak CRD converter |
 | [h2c-operator-certmanager](https://github.com/helmfile2compose/h2c-operator-certmanager) | cert-manager CRD converter |
 | [h2c-operator-trust-manager](https://github.com/helmfile2compose/h2c-operator-trust-manager) | trust-manager CRD converter |
-
-## Documentation
-
-**[helmfile2compose.github.io](https://helmfile2compose.github.io/)** — for those who choose to proceed.
-
-*You have been warned.*
