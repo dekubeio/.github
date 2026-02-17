@@ -22,3 +22,4 @@ Three components: **h2c-core** (*the mad scribe*) converts the manifests, **exte
 | [h2c-operator-keycloak](https://github.com/helmfile2compose/h2c-operator-keycloak) | Keycloak CRD converter |
 | [h2c-operator-cert-manager](https://github.com/helmfile2compose/h2c-operator-cert-manager) | cert-manager CRD converter |
 | [h2c-operator-trust-manager](https://github.com/helmfile2compose/h2c-operator-trust-manager) | trust-manager CRD converter |
+| [h2c-operator-servicemonitor](https://github.com/helmfile2compose/h2c-operator-servicemonitor) | Prometheus & ServiceMonitor CRD converter |
