@@ -16,15 +16,11 @@ Three components: **h2c-core** (*the mad scribe*) converts the manifests, **exte
 
 | Repo | Purpose |
 |------|---------|
-| [helmfile2compose](https://github.com/helmfile2compose/helmfile2compose) | The core converter. Patient zero. |
+| [h2c-core](https://github.com/helmfile2compose/h2c-core) | Bare conversion engine — empty registries, no opinions |
+| [helmfile2compose](https://github.com/helmfile2compose/helmfile2compose) | The distribution — core + 8 monks. Patient zero. |
+| [kubernetes2simple](https://github.com/helmfile2compose/kubernetes2simple) | Turnkey distribution — all extensions + bootstrap script |
 | [h2c-manager](https://github.com/helmfile2compose/h2c-manager) | Package manager + extension registry |
 | [helmfile2compose.github.io](https://github.com/helmfile2compose/helmfile2compose.github.io) | Documentation site |
-| [h2c-provider-keycloak](https://github.com/helmfile2compose/h2c-provider-keycloak) | Keycloak CRD provider |
-| [h2c-converter-cert-manager](https://github.com/helmfile2compose/h2c-converter-cert-manager) | cert-manager CRD converter |
-| [h2c-converter-trust-manager](https://github.com/helmfile2compose/h2c-converter-trust-manager) | trust-manager CRD converter |
-| [h2c-provider-servicemonitor](https://github.com/helmfile2compose/h2c-provider-servicemonitor) | Prometheus & ServiceMonitor CRD provider |
-| [h2c-transform-flatten-internal-urls](https://github.com/helmfile2compose/h2c-transform-flatten-internal-urls) | Transform: strip aliases, rewrite FQDNs to short names |
-| [h2c-transform-bitnami](https://github.com/helmfile2compose/h2c-transform-bitnami) | Transform: Bitnami Redis, PostgreSQL, Keycloak workarounds |
-| [h2c-rewriter-nginx](https://github.com/helmfile2compose/h2c-rewriter-nginx) | Nginx ingress annotation rewriter |
-| [h2c-rewriter-traefik](https://github.com/helmfile2compose/h2c-rewriter-traefik) | Traefik ingress annotation rewriter (POC) |
 | [h2c-testsuite](https://github.com/helmfile2compose/h2c-testsuite) | Regression & performance test suite |
+
+Monks, extensions, rewriters, transforms — see the **[extension catalogue](https://helmfile2compose.github.io/catalogue/)**.
