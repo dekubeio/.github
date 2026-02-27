@@ -6,9 +6,9 @@ O traveler, you who have arrived at these gates — know that the path behind yo
 
 ### The concept
 
-An abomination. Convert Kubernetes manifests to `compose.yml` + `Caddyfile`. Not Kubernetes-in-Docker — no cluster, no kubelet, no shim. Plain `docker compose up`, plain Caddy, plain suffering.
+You deploy with Helm charts or helmfiles. Your users, your dev setup, or your NAS just need `docker compose up`. dekube generates `compose.yml` from your Kubernetes manifests — one source of truth, no second stack to maintain — just regrets.
 
-Three components: **dekube-engine** (*the mad scribe*) converts the manifests, **extensions** (*the damned*) extend it beyond built-in kinds — CRD providers, converters, transforms, tomorrow whatever Yog Sa'rath demands — and **dekube-manager** (*the dark priest*) downloads and orchestrates everything.
+Three components: **dekube-engine** (*the mad scribe*) converts the manifests, **extensions** (*the monks and the damned*) extend it beyond built-in kinds — CRD providers, converters, transforms, tomorrow whatever Yog Sa'rath demands — and **dekube-manager** (*the dark priest*) downloads and orchestrates everything.
 
 > *"Abandon all hope, yee who enter here"* — Semple (allegedly)
 
